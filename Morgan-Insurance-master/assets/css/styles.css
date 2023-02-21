@@ -1,0 +1,531 @@
+/**************************/
+/*     General Styles     */
+/**************************/
+body, p {
+	color: #777;
+    font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
+}
+
+.p-resize {
+    font-size: 15px;
+} 
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F8B127;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F8B127;
+}
+
+.line-heading {
+    width: 4rem;
+    height: 0.2rem;
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+    border: none;
+    background: #F8B127;
+    opacity: 0.8;
+}
+
+a.btn-mode-one {
+    background-color: #F8B127;
+    border: 2.5px solid #F8B127;
+    color: #FFF;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    /* box-shadow: 0px 10px 28px #dedede; */
+    outline: none;
+    font-weight: 600;
+}
+
+a.btn-mode-one:hover {
+    background-color: #FFF;
+    color: #F8B127;
+    box-shadow: none
+}
+
+.btn-div {
+    margin-top: 2rem;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #bb871f;
+    border-color: #bb871f;
+}
+
+.btn-primary:focus, .btn.focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #F8B127;
+    border-color: #F8B127;
+}
+
+/*******************/
+/*     Topbar      */
+/*******************/
+.topbar-area {
+    padding: 1rem 2rem;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.topbar-area .fas {
+    margin-right: 0.5rem;
+    font-size: 0.875rem;
+    color: #F8B127;
+}
+
+.topbar-area ul {
+    display: flex;
+}
+
+.topbar-area ul li {
+    margin-right: 0.9rem;
+}
+.topbar-area ul li:last-child {
+    margin-right: 0;
+}
+/* end of Topbar */
+
+/***********************/
+/*     Header Area     */
+/***********************/
+.header-area {
+    margin: 1.8rem;
+}
+
+.header-area .fas {
+    margin-right: 0.7rem;
+    font-size: 1.8rem;
+    color: #F8B127;
+}
+
+.header-area .logo-header {
+    width: 160px;
+    margin-right: 1.5rem;
+}
+
+.header-area .row {
+    justify-content: space-between;
+}
+
+.header-area .row ul {
+    display: flex;
+}
+
+.header-area ul li {
+    margin-right: 0.9rem;
+}
+.header-area ul li:last-child {
+    margin-right: 0;
+}
+/* end of Header area */
+
+
+/*******************/
+/*     Navbar     **/
+/*******************/
+.navbar {
+    position: relative;
+    margin: auto 2rem;
+    padding: 1rem 2rem;
+    background-color: #F8B127 !important;
+    margin-bottom: -35px;
+    z-index: 999999;
+    transition: all 0.4s ease;
+}
+
+.nav-collapse {
+    position: fixed;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f1f1f1;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #f1f1f1;
+}
+
+.btn-outline-success {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-success:hover {
+    background-color: #fff;
+    color: #F8B127;
+    border-color: #fff;
+}
+/* end of Navbar */
+
+/*******************/
+/*     Slider     **/
+/*******************/
+.slide .carousel-caption {
+    top: 25% !important;
+}
+
+.carousel-caption h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+/* end of Slider */
+
+
+/******************/
+/*    Partners    */
+/******************/
+.partners {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.col-lg-12 h2 {
+    margin-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+}
+/* end of Partners */
+
+
+/******************/
+/*    Services    */
+/******************/
+.services {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.services .img-fluid {
+    max-width: 24%;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.services .btn-div {
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.services a.btn-mode-one {
+    padding: 0.5rem 1.3rem;
+
+}
+/* end of Services */
+
+
+/****************************/
+/*   Transfer and Payment   */
+/****************************/
+.tp-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.tp-section .fas {
+    margin-right: 0.5rem;
+    color: #F8B127;
+    font-size: 0.5rem;
+}
+
+.tp-section img {
+    margin-bottom: 2rem;
+}
+/* end of Transfer and Payment */
+
+
+/******************/
+/*   Contact us   */
+/******************/
+.contact {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.contact .line-heading {
+    margin-bottom: 2rem;
+}
+
+.contact .btn-div {
+    text-align: center;
+}
+
+.contact .fas {
+    color: #F8B127;
+}
+/* end of Contact us */
+
+
+/*****************************************/
+/********      Devis Page     ************/
+/*****************************************/
+
+/***********************/
+/*  Header Background  */
+/***********************/
+.bg-header {
+    background: url("../images/car-bg.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 525px;
+}
+
+.heading-txt {
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.bg-header h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.bg-header h5 {
+    line-height: 2rem;
+}
+
+/* end of Header background */
+
+
+/***********************/
+/*  Devis Calculation  */
+/***********************/
+.cal-sec {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.result-cal {
+    box-shadow: 0px 0px 35px rgb(168 168 168 / 45%);
+    margin: 2rem 2rem;
+    border-radius: 10px;
+    padding: 2rem 0;
+}
+
+.cal-sec form {
+    margin: 2rem 3rem;
+}
+
+.cal-sec form h2 {
+    margin-bottom: 1.5rem ;
+}
+
+.result-cal .panel-group {
+    padding: 1rem 2.3rem;
+}
+
+.result-cal a {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.result-cal .panel-default {
+    border-bottom: 1px solid #ccc;
+    padding: 0.6rem 0.5rem;
+}
+
+.result-cal a span {
+    font-size: 30px;
+    float: right;
+}
+
+.dh-value h5 {
+    font-weight: 600;
+}
+
+.row.dh-value {
+    text-align: center;
+    padding: 0 2.5rem;
+}
+.panel-group p span {
+    float: right;
+}
+/* end of Devis Calculation */
+
+
+/*****************************************/
+/********  end of Devis Page  ************/
+/*****************************************/
+
+
+/******************/
+/*     Footer     */
+/******************/
+.footer {
+	padding-top: 3rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer .footer-col {
+	margin-bottom: 2.25rem;
+}
+
+.footer h4 {
+	margin-bottom: 1rem;
+}
+
+.footer p  {
+	color: #fff;
+}
+
+.footer .list-unstyled .fas {
+	color: #fff;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.footer .list-unstyled .media-body {
+	margin-left: 0.625rem;
+}
+
+
+/*********************/
+/*     Copyright     */
+/*********************/
+.copyright {
+	padding: 1rem 0;
+	background-color: #333;
+    text-align: center;
+    border-top: 0.5px solid #5d5d5d;
+}
+
+.copyright .p-small {
+	color: #f1f1f8;
+	margin: 0;
+}
+
+
+/*************************/
+/*     Media Queries     */
+/*************************/	
+/* Max-width width 1040px */
+@media (max-width: 1040px) {
+
+    /*  Topbar  */
+    .topbar-area {
+        display: block;
+        padding: 1rem;
+    }
+
+    .topbar-area ul {
+        justify-content: center;
+    }
+    /*  end of Topbar  */
+
+    /*  Header Area  */
+    .header-area {
+        margin: 1.5rem 0;
+    }
+    /*  end of Header Area  */
+
+    /*  Navbar  */
+    .navbar {
+        margin: 0;
+        padding: 1rem;
+    }
+    /*  end of Navbar  */
+
+    /* Slider */
+    .slide .carousel-caption {
+        top: 15% !important;
+    }
+
+    .carousel-caption h1 {
+        font-size: 2.5rem;
+    }
+    /* end of Slider */
+
+    /* Partners */
+    .partners .col-sm {
+        margin: 10px 0;
+    }
+    /* end of Partners */
+}
+
+
+/* Max-width width 768pxx */
+@media screen and (max-width: 768px) {
+    .slide-header {
+        display: none;
+    }
+}
+
+/* Max-width width 710px */
+@media screen and (max-width: 710px) {
+
+    /*  Topbar  */
+    .topbar-area ul:first-child {
+        display: block;
+        text-align: center;
+        line-height: 30px;
+    }
+    /*  end of Topbar  */
+
+    /*  Header Area  */
+    .header-area .row {
+        justify-content: center;
+    }
+
+    .header-area .logo-header {
+        margin-bottom: 1.5rem;
+    }
+    /*  end of Header Area  */
+}
+
+
+/* Min-width width 1200px */
+@media (min-width: 1200px) {
+
+    /* Footer */
+	.footer .footer-col.middle {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.footer .footer-col.last {
+		margin-right: 0;
+		margin-left: auto;
+	}
+	/* end of footer */
+}
